@@ -1,0 +1,28 @@
+const frd=["vishal","sham","ram","soma"];
+const Friends= ["vaibhav","sai","vinayak","ghgh"];
+
+// console.log(frd)
+//console.log(Friends)
+
+// frd.push(Friends);     //
+// console.log(frd);
+
+
+//frd.concat(Friends);
+//console.log(frd);
+
+// const newonefrd=frd.concat(Friends);          //concanate all the item
+// console.log(newonefrd);
+
+//spread operator mostly used conacanite the value
+
+// const allfrd=[...frd,...Friends];      //spred operator
+// console.log(allfrd);
+
+//using flat ()
+
+const a1=[1,2,3,[4,5,6],8,6,4,[0,1,[6,8,0]]];
+
+const alla1=a1.flat(Infinity);
+
+console.log(alla1);
